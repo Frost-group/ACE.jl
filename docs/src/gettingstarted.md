@@ -12,15 +12,14 @@ registry add https://github.com/JuliaMolSim/MolSim.git
 ```
 3. Install some important registered packages; from Julia REPL / package manager:
 ```julia
-add PyCall IJulia    # add more important packages from General registry
-add ACE              # maybe add other packages from MolSim registry
+add PyCall, IJulia    # add more important packages from General registry
+add ACE               # maybe add other packages from MolSim registry
 ```
 Add other packages you think you might need, e.g. 
 ```
-add PyCall IJulia
-add JuLIP ASE ACEatoms    # for modelling with atoms and molecules
+add JuLIP, ASE, ACEatoms    # for modelling with atoms and molecules
 ```
-4. For fitting interatomic potenitials, you need to install also [`IPFitting.jl`](https://github.com/cortner/IPFitting.jl),
+4. For fitting interatomic potentials, you need to install also [`IPFitting.jl`](https://github.com/cortner/IPFitting.jl),
 ```julia
 add IPFitting
 ```
